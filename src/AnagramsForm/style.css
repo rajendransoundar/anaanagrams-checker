@@ -26,3 +26,10 @@
     border-radius: 8px;
     font-size: 18px;
 }
+
+.green{
+    color: rgb(6, 90, 6);
+}
+.red{
+    color: rgb(107, 9, 9);
+}

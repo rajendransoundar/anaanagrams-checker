@@ -30,8 +30,8 @@ export default function AnagramChecker() {
         <input type="text" value={word2} onChange={(e) => setWord2(e.target.value)} />
         <p></p>
       <button onClick={checkAnagram}>Check Anagram</button>
-      {submitted && isAnagram && <p>{word1} and {word2} are anagrams!</p>}
-      {submitted && !isAnagram && <p>{word1} and {word2} are not anagrams.</p>}
+      {submitted && isAnagram && <h3 className='green'>{word1} and {word2} are anagrams!</h3>}
+      {submitted && !isAnagram && <h3 className='red'>{word1} and {word2} are not anagrams.</h3>}
       </div>
     </div>
     </>
